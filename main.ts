@@ -1,11 +1,5 @@
-input.onButtonPressed(Button.A, function () {
-	
-})
 radio.onReceivedString(function (receivedString) {
     basic.showIcon(IconNames.Duck)
-})
-input.onButtonPressed(Button.B, function () {
-	
 })
 input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
